@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Fonts' links starts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Fonts' links ends-->
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+
+  <main>
+    <!-- Rating state start -->
+    <section class="form_cont">
+      <header>
+        <div class="icon_cont">
+          <img src="./images/icon-star.svg" alt="">
+        </div>
+        <h2 class="header">
+          How did we do?
+        </h2>
+        <p class="header_para">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+      </header>
+      <form class="form_controle">
+        <section class="btns">
+          <input class="btn" type="text" value="1" readonly>
+          <input class="btn" type="text" value="2" readonly>
+          <input class="btn" type="text" value="3" readonly>
+          <input class="btn" type="text" value="4" readonly>
+          <input class="btn" type="text" value="5" readonly>
+        </section>
+  
+        <button class="submit">Submit</button>
+      </form>
+    </section>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <section class="submit_message hide">
+      <div class="icon_message">
+        <img src="./images/illustration-thank-you.svg" alt="Submit message icon" class="submit_message_icon">
+        <p class="submit_rating_count">You selected 4 out of 5</p>
+        <h2 class="submit_header">Thank you!</h2>
+      </div>
+
+      <p class="message_para">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+    </section>
+     <!-- Thank you state end -->
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Samir Yorogli</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
